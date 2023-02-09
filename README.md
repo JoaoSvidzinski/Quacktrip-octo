@@ -1,2 +1,2 @@
 # Quacktrip-octo
-Miller Puckette’s Quacktrip Pure Data octophny version
+Miller Puckette’s [Quacktrip](http://msp.ucsd.edu/tools/quacktrip/) Pure Data octophny version
