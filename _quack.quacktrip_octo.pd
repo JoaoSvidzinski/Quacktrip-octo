@@ -1,4 +1,4 @@
-#N canvas 62 283 1179 697 12;
+#N canvas 126 200 1179 697 12;
 #X declare -path lib;
 #X declare -path quacktrip/lib;
 #X obj 20 490 s quack-panel-1;
