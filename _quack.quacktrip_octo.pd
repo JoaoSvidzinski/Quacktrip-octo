@@ -1,4 +1,4 @@
-#N canvas 236 254 1179 697 12;
+#N canvas 578 189 1179 697 12;
 #X declare -path lib;
 #X declare -path quacktrip/lib;
 #X obj 20 490 s quack-panel-1;
@@ -109,7 +109,7 @@ on-off 1, f 68;
 #X msg 252 769 \; quack-panel-1 call-name port_4477 \, server localhost
 \, on-off 1, f 68;
 #X obj 235 429 dac~ 1 2 1 2 1 2 1 2, f 43;
-#X obj 492 37 osc~ 440;
+#X obj 583 37 osc~ 440;
 #X obj 237 114 quack.quack-panel-octo 1;
 #X msg 262 779 \; quack-panel-1 call-name port_4477 \, server localhost
 \, on-off 1, f 68;
@@ -143,14 +143,9 @@ on-off 1;
 #X connect 19 5 24 5;
 #X connect 19 6 24 6;
 #X connect 19 7 24 7;
-#X connect 23 0 24 2;
-#X connect 23 0 24 3;
 #X connect 23 0 24 0;
 #X connect 23 0 24 1;
-#X connect 23 0 24 4;
-#X connect 23 0 24 5;
-#X connect 23 0 24 6;
-#X connect 23 0 24 7;
+#X connect 23 0 24 2;
 #X connect 24 0 22 0;
 #X connect 24 1 22 1;
 #X connect 24 2 22 2;
