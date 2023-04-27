@@ -946,7 +946,7 @@ f 18;
 #X restore 633 295 pd client;
 #X text 734 230 start server - arg is port to listen for, f 14;
 #X text 968 252 1 client with known server addr;
-#N canvas 145 25 1511 1067 in-packet-fifo 0;
+#N canvas 552 25 1511 1067 in-packet-fifo 1;
 #X obj 26 578 v \$0-fifowrite;
 #X obj 26 603 + 1;
 #X obj 26 653 v \$0-fifowrite;
